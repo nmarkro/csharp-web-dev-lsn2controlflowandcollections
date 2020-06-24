@@ -29,7 +29,7 @@ namespace ListExercises
         {
             foreach(string s in words)
             {
-                if (s.Length == 5)
+                if (s.Length == length)
                 {
                     Console.WriteLine(s);   
                 }
